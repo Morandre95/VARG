@@ -1,0 +1,111 @@
+.navbar {
+    background-color: var(--main) !important;
+    color: var(--nav) !important;
+}
+
+.logo {
+    color: var(--btn) !important;
+}
+
+.user-text {
+    color: var(--btn) !important;
+}
+
+.navbar a:not(.logo, .dropdown-item, .user-text) {
+    color: var(--txt) !important;
+}
+
+.navbar-nav li {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: large !important;
+}
+
+.nav-link:hover {
+    color: var(--acc) !important;
+}
+
+.navbar a:not(.logo, .dropdown-item, .user-text):hover {
+    color: var(--acc) !important;
+}
+
+.mt-6 {
+    margin-top: 5.5rem;
+}
+
+.navbar-toggler {
+    color: var(--main) !important;
+    background-color: var(--acc) !important;
+    border: var(--acc) solid var(--acc);
+}
+
+/* NAVBAR SECONDARIA */
+
+.navbar-secondaria {
+    padding: 0; /* Ridotto il padding sopra e sotto */
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-secondaria ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-secondaria li {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-secondaria a {
+    display: block;
+    color: white;
+    padding: 5px 0; /* Ridotto il padding interno ai link */
+    text-decoration: none;
+    background-color: var(--acc);
+    border: 1px solid #555;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.navbar-secondaria a:hover {
+    background-color: var(--main);
+}
+
+.navbar-secondaria li a {
+    margin: 0;
+    padding: 3px 0; 
+    border: none;
+}
+
+.me-globo{
+    margin-right: 5.5rem;
+}
+
+#globo {
+    width: 30px;
+}
+#globo_dropdown {
+    background-color: var(--acc);
+    --bs-dropdown-min-width: 75px !important;
+    
+}
+
+.badge-custom {
+    height: 65% !important;
+    width: 100% !important;
+    line-height: 73%;
+    margin-top: 0.40rem !important;
+}

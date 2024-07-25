@@ -1,0 +1,65 @@
+.masthead {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* media query per schermi sopra a 1440px */
+@media screen and (min-width: 2751px ) {
+    
+    .top-custom{
+        top:80% !important;
+
+    }
+}
+
+.masthead-title {
+    top: 70%;
+    color: var(--main);
+    font-size: 150px;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+}
+
+.masthead-subtitle {
+    /* width: max-content; */
+    color: var(--main);
+    font-size: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+}
+
+.top-custom {
+    top: 60%;
+}
+
+.insert-box {
+    top: 35%;
+    left: 69%;
+    background: #24363feb;
+    color: var(--bg);
+    border-radius: 10px;
+}
+
+.carousel-custom {
+    height: 90vh!important;
+}
+
+.fs-custom {
+    font-size: 85px !important;
+}
+
+.masthead-mobile {
+    background-image: url(../../public/media/masthead-mobile.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
